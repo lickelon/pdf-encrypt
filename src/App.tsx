@@ -153,6 +153,7 @@ const App = () => {
 						}
 
 						return (
+							<div className="max-h-80 overflow-auto">
 							<Table>
 								<TableCaption>
 									The output information of the encrypted file.
@@ -202,6 +203,7 @@ const App = () => {
 									))}
 								</TableBody>
 							</Table>
+							</div>
 
 							// <DynamicDataSheetGrid<PdfFile>
 							// 	ref={datasheetGridRef}
